@@ -491,6 +491,19 @@ h3 {
   color: #2196f3;
 }
 
+.flex-social-item {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 /*hero section*/
 .hero {
   height: 600px;
