@@ -76,10 +76,10 @@
 }
 
 .team-item {
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: $middle-font-weight;
+  font-size: $form-font-size;
   text-transform: none;
-  line-height: 1.19;
+  line-height: $primary-line-height;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -87,10 +87,10 @@
   display: inline-block;
   margin-top: 0;
   margin-bottom: 16px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  font-weight: $primary-font-weight;
+  font-size: $form-font-size;
+  line-height: $primary-line-height;
+  letter-spacing: $primary-letter-spacing;
   text-align: center;
 }
 .our-team-padding {

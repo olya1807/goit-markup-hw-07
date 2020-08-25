@@ -27,7 +27,7 @@
   font-size: 44px;
   line-height: 1.36;
 
-  letter-spacing: 0.06em;
+  letter-spacing: $hero-letter-spacing;
   text-transform: uppercase;
   color: $white-accent-color;
 }
@@ -39,11 +39,11 @@
   min-width: 200px;
   border: 1px solid transparent;
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  font-weight: $secondary-font-weight;
+  font-size: $form-font-size;
+  line-height: $hero-line-height;
 
-  letter-spacing: 0.06em;
+  letter-spacing: $hero-letter-spacing;
   color: $white-accent-color;
   background-color: $accent-color;
 }

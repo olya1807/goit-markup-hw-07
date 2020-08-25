@@ -9,11 +9,11 @@ footer {
   justify-content: space-between;
 }
 .logo-footer {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
+  font-family: $secondary-font-family;
+  font-weight: $secondary-font-weight;
+  font-size: $secondary-font-size;
+  line-height: $primary-line-height;
+  letter-spacing: $primary-letter-spacing;
   color: $white-accent-color;
 }
 .footer-address {
@@ -26,10 +26,10 @@ footer {
 }
 .footer-place {
   display: block;
-  font-weight: 400;
+  font-weight: $primary-font-weight;
   margin-bottom: 9px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  line-height: $footer-line-height;
+  letter-spacing: $primary-letter-spacing;
   color: $white-accent-color;
 }
 .footer-mail {
@@ -37,16 +37,16 @@ footer {
   padding: 0;
   margin: 0;
 
-  font-weight: 400;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-weight: $primary-font-weight;
+  line-height: $footer-line-height;
+  letter-spacing: $primary-letter-spacing;
   color: $footer-contacts-color;
 }
 .footer-phone {
   display: block;
-  font-weight: 400;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-weight: $primary-font-weight;
+  line-height: $footer-line-height;
+  letter-spacing: $primary-letter-spacing;
   color: $footer-contacts-color;
   margin-bottom: 60px;
   margin-top: 9px;
@@ -54,11 +54,11 @@ footer {
 .join {
   display: block;
   width: 206px;
-  font-weight: bold;
+  font-weight: $secondary-font-weight;
   margin-top: 72px;
   margin-bottom: 20px;
   margin-right: 94px;
-  line-height: 1.14;
+  line-height: $secondary-line-height;
   color: $white-accent-color;
   text-transform: uppercase;
 }
@@ -114,9 +114,9 @@ footer {
 
 .follow-us-mailing {
   width: 100%;
-  font-weight: bold;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  font-weight: $secondary-font-weight;
+  line-height: $secondary-line-height;
+  letter-spacing: $primary-letter-spacing;
   color: $white-accent-color;
   text-transform: uppercase;
 }
@@ -136,17 +136,17 @@ footer {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 
-  font-family: Roboto;
-  font: 1em sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
+  font-family: $primary-font-family;
+  font: 1em $primary-font;
+  font-weight: $primary-font-weight;
+  font-size: $form-font-size;
+  line-height: $form-line-height;
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
 
   display: flex;
-  letter-spacing: 0.03em;
+  letter-spacing: $primary-letter-spacing;
 
   color: rgba(255, 255, 255, 0.6);
 }
@@ -162,8 +162,8 @@ footer {
   border: 1px solid;
   border-color: $accent-color;
 
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: $secondary-font-weight;
+  font-size: $form-font-size;
   line-height: 1.88;
 
   letter-spacing: 0.06em;

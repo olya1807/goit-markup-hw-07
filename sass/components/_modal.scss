@@ -107,10 +107,10 @@
   transform: translateY(-50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.01em;
+  font-weight: $primary-font-weight;
+  font-size: $modal-font-size;
+  line-height: $middle-line-height;
+  letter-spacing: $modal-letter-spacing;
   color: $primary-text-color;
 }
 
@@ -135,11 +135,11 @@
 .form-input:not(:placeholder-shown) + .form-label {
   transform: translateY(-40px);
   left: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  font-family: $primary-font-family;
+  font-weight: $primary-font-weight;
+  font-size: $modal-secondary-font-size;
+  line-height: $modal-line-height;
+  letter-spacing: $modal-letter-spacing;
 }
 
 .form-input:focus + .form-label {
@@ -213,10 +213,10 @@
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.01em;
+  font-weight: $primary-font-weight;
+  font-size: $modal-font-size;
+  line-height: $secondary-line-height;
+  letter-spacing: $modal-letter-spacing;
   color: $primary-text-color;
 }
 
@@ -224,11 +224,11 @@
 .form-textarea:not(:placeholder-shown) + .form-textarea-lable {
   transform: translateY(-35px);
   left: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  font-family: $primary-font-family;
+  font-weight: $primary-font-weight;
+  font-size: $modal-secondary-font-size;
+  line-height: $modal-line-height;
+  letter-spacing: $modal-letter-spacing;
   color: $accent-color;
 }
 .form-field-checkbox {
@@ -266,10 +266,10 @@
   justify-content: center;
   width: 401px;
   margin-left: 20px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-weight: $primary-font-weight;
+  font-size: $modal-font-size;
+  line-height: $footer-line-height;
+  letter-spacing: $primary-letter-spacing;
 
   color: $primary-text-color;
 }
@@ -284,22 +284,22 @@
 }
 
 .form-checkbox-text {
-  font-family: Roboto;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-family: $primary-font-family;
+  font-weight: $primary-font-weight;
+  font-size: $modal-font-size;
+  line-height: $footer-line-height;
+  letter-spacing: $primary-letter-spacing;
 
   color: $primary-text-color;
 }
 
 .form-checkbox-link {
   display: block;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71px;
+  font-weight: $primary-font-weight;
+  font-size: $modal-font-size;
+  line-height: $footer-line-height;
 
-  letter-spacing: 0.03em;
+  letter-spacing: $primary-letter-spacing;
   margin-left: 3px;
 
   color: $accent-color;
@@ -314,11 +314,11 @@
   border: 1px solid;
   border-color: $accent-color;
 
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  font-weight: $secondary-font-weight;
+  font-size: $form-font-size;
+  line-height: $hero-line-height;
 
-  letter-spacing: 0.06em;
+  letter-spacing: $hero-letter-spacing;
   align-items: center;
   padding-right: auto;
   color: $white-accent-color;
