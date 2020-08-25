@@ -49,28 +49,22 @@
 }
 
 .client-1 {
-  width: 44px;
-  height: 49px;
+  @include icon-size(44px, 49px);
 }
 .client-2 {
-  width: 40px;
-  height: 52px;
+  @include icon-size(40px, 52px);
 }
 .client-3 {
-  width: 41px;
-  height: 43px;
+  @include icon-size(41px, 43px);
 }
 .client-4 {
-  width: 80px;
-  height: 42px;
+  @include icon-size(80px, 42px);
 }
 .client-5 {
-  width: 59px;
-  height: 47px;
+  @include icon-size(59px, 47px);
 }
 .client-6 {
-  width: 88px;
-  height: 45px;
+  @include icon-size(88px, 45px);
 }
 
 .clients-padding {
